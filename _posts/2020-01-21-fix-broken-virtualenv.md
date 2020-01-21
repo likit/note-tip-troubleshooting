@@ -9,12 +9,12 @@ This problem arises when the Python is updated.
 
 ## First removed symlinks
 
-`find ~/.virtualenvs/my-virtual-env/ -type l -delete`
+```find ~/.virtualenvs/my-virtual-env/ -type l -delete```
 
 ## Then, rebuild the virtualenv
 
-`cd ~/.virtualenv/my-virtual-env/`
+```cd ~/.virtualenv/my-virtual-env/```
 
-`virtualenv .`
+```virtualenv .```
 
 Done.
